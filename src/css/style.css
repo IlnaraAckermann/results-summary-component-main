@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.summary-content {
+    max-width: 20rem;
+    text-align: center;
+} 
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%);}
+
+li {
+    padding: 1.25rem;
+    margin: 1.25rem;
+    border-radius: 0.75rem;
+}
+
+.status {
+    font-weight: 800;
+}
+
+
+.values-status {
+    color: hsl(241, 100%, 89%);
+} 
+
+.values-status strong {
+    color: hsl(224, 30%, 27%);
+} 
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.05);
+    list-style: square inside  url(/src/images/icon-reaction.svg);
+    }
+
+
+.reaction .status {
+    color: hsla(0, 100%, 67%, 0.75);
+}
+
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.05);
+    list-style: square inside  url(/src/images/icon-memory.svg);
+}
+
+
+.memory .status {
+    color: hsla(39, 100%, 56%, 0.75);
+}
+
+.verbal {
+    background-color:hsla(166, 100%, 37%, 0.05);
+    list-style: square inside  url(/src/images/icon-verbal.svg);
+    }
+
+.verbal .status {
+    color: hsla(166, 100%, 37%, 0.75);
+}
+
+.visual {    
+    background-color: hsla(234, 85%, 45%, 0.05);
+    list-style: square inside  url(/src/images/icon-visual.svg);
+    }
+
+.visual .status {
+    color: hsla(234, 85%, 45%, 0.75);
+}
+
+.continue-summary {
+    min-width: 80%;
+    background-color:hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 2rem;
+    padding: 0.65rem;
+}
