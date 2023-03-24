@@ -137,11 +137,11 @@ footer{
 .attribution { font-size: 0.6875rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%);}
 
-.values-status {
+.values-status-valor {
     color: hsla(224, 30%, 27%, 0.3);
+} 
+.values-status {
+    color: hsl(224, 30%, 27%);
     float: right;
 } 
 
-.values-status strong {
-    color: hsl(224, 30%, 27%);
-} 
