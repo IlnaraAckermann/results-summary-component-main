@@ -36,8 +36,14 @@ li:nth-child(4){
     list-style: square inside  url(/src/images/icon-visual.svg);
 }
 
+h1 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1.05rem;
+}
 
-/*TODO corrigir posicionamento*/
+p {
+    font-size: 1.125rem;
+}
 .content {    
     display: flex;
     flex-direction: row;
@@ -49,11 +55,20 @@ li:nth-child(4){
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     background-color: hsl(0, 0%, 100%);
     height: 31.875rem;
-    width: 23rem;
+    width: 28rem;    
+    border-radius: 2rem;
+    border: none;
+    transform: translate(-5rem);
+    padding-left: 5rem;    
 } 
+
+.title-summary{
+    align-self: self-start;
+    margin-left: 2.5rem;
+}
 
 .result {    
     display: flex;
@@ -63,18 +78,35 @@ li:nth-child(4){
     background: linear-gradient(180deg, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 100%);
     height: 31.875rem;
     width: 23rem;
+    border-radius: 2rem;
+    border: none;
+    z-index: 1;
+    color: hsl(241, 100%, 89%)
 } 
+
+.result-text {
+    padding: 0 3.75rem;
+    text-align: center;
+    line-height: 1.25;
+    margin-bottom: 1rem;
+}
 
 
 .circle {
-    display: flex;;
+    display: flex;
     background-color: hsla(241, 81%, 54%, 0.3);
-    /* background: linear-gradient(180deg, hsla(252, 100%, 67%, 0.5) 0%, hsla(241, 81%, 54%, 0.3) 100%); */
+    margin: 1.875rem;
     width: 12.5rem;  
     height: 12.5rem;
     border-radius: 100%;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.circle-title {
+    font-size: 4.5em;
+    color: hsl(0, 0%, 100%);
 }
 
 button {
@@ -91,12 +123,13 @@ background: linear-gradient(180deg, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 1
 
 footer{
     position: absolute;
+    padding-bottom: 2em;
     bottom: 0;
     left: 0;
     right: 0;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 0.6875rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%);}
 
 
@@ -108,7 +141,9 @@ footer{
 
 
 .values-status {
-    color: hsl(241, 100%, 89%);
+    color: hsla(224, 30%, 27%, 0.3);
+    font-weight: 700;
+    float: right;
 } 
 
 .values-status strong {
