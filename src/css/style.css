@@ -14,26 +14,31 @@ li {
     border-radius: 0.75rem;
     width: 18rem;
     height: 3.4375em;
+    font-weight: 700;
 }
 
 li:nth-child(1) {    
     background-color: hsla(0, 100%, 67%, 0.05);
     list-style: square inside  url(/src/images/icon-reaction.svg);
+    color: hsla(0, 100%, 67%, 0.75);
 }
 
 li:nth-child(2){
     background-color: hsla(39, 100%, 56%, 0.05);
     list-style: square inside  url(/src/images/icon-memory.svg);
+    color: hsla(39, 100%, 56%, 0.75);
 }
 
 li:nth-child(3){
     background-color:hsla(166, 100%, 37%, 0.05);
     list-style: square inside  url(/src/images/icon-verbal.svg);
+    color: hsla(166, 100%, 37%, 0.75);
 }
 
 li:nth-child(4){    
     background-color: hsla(234, 85%, 45%, 0.05);
     list-style: square inside  url(/src/images/icon-visual.svg);
+    color: hsla(234, 85%, 45%, 0.75);
 }
 
 h1 {
@@ -132,42 +137,11 @@ footer{
 .attribution { font-size: 0.6875rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%);}
 
-
-
-
-.status {
-    font-weight: 700;
-}
-
-
 .values-status {
     color: hsla(224, 30%, 27%, 0.3);
-    font-weight: 700;
     float: right;
 } 
 
 .values-status strong {
     color: hsl(224, 30%, 27%);
 } 
-
-
-
-.status.reaction {
-    color: hsla(0, 100%, 67%, 0.75);
-}
-
-
-
-.status.memory {
-    color: hsla(39, 100%, 56%, 0.75);
-}
-
-
-.status.verbal  {
-    color: hsla(166, 100%, 37%, 0.75);
-}
-
-
-.status.visual {
-    color: hsla(234, 85%, 45%, 0.75);
-}
