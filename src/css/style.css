@@ -19,7 +19,8 @@ li {
 
 li:nth-child(1) {    
     background-color: hsla(0, 100%, 67%, 0.05);
-    list-style: square inside  url(/src/images/icon-reaction.svg);
+    list-style: square inside;
+    list-style-image: url(/src/images/icon-reaction.svg);
     color: hsla(0, 100%, 67%, 0.75);
 }
 
