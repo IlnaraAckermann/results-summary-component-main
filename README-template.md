@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/IlnaraAckermann/results-summary-component-main)
-- Live Site URL: [Add live site URL here](https://ilnaraackermann.github.io/results-summary-component-main/)
+- Live Site URL: [Add live site URL here](https://results-summary-component-main-kx7kdn7i0-ilnaraackermann.vercel.app/)
 
 ## My process
 
