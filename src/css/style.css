@@ -19,8 +19,11 @@ li {
     list-style: circle inside;
 }
 
+
 .values-status-valor {     
-    color: hsla(224, 30%, 27%, 0.3);} 
+    color: hsla(224, 30%, 27%, 0.3);
+    float: right;
+} 
 .values-status { 
     color: hsl(224, 30%, 27%);
     float: right;
@@ -76,9 +79,9 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* height: 31.875rem; */
-    /* width: 23rem;     */
-    flex-basis:50%;
+    /* flex-basis:50%; */
+    align-self: stretch;
+    flex: 1;
     border-radius: 2rem;
     border: none;   
 } 
@@ -86,6 +89,7 @@ p {
 .title-summary{
     align-self: self-start;
     margin-left: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 .result {    
@@ -94,9 +98,8 @@ p {
     justify-content: center;
     align-items: center;
     background: linear-gradient(180deg, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 100%);
-    /* height: 31.875rem;
-    width: 23rem; */
-    flex-basis:50%;
+    flex: 1;
+    /* flex-basis:50%; */
     align-self: stretch;
     border-radius: 2rem;
     border: none;
@@ -135,6 +138,7 @@ button {
     color: hsl(0, 0%, 100%);
     border-radius: 2rem;
     border: none;
+    margin: 1.25rem;
 }
 button:active {
 background: linear-gradient(180deg, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 100%);
