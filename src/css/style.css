@@ -3,7 +3,8 @@
 
 body{       
     font-family: 'Hanken Grotesk', sans-serif; 
-    background-color: hsl(221, 100%, 96%);
+    /* background-color: hsl(221, 100%, 96%); */
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,6 +73,9 @@ p {
     height: 31.875rem;
     background-color: hsl(0, 0%, 100%);
     border-radius: 2rem;
+    -webkit-box-shadow: 1rem 1rem 3rem 0.5rem hsla(221, 100%, 96%, 0.5);
+    -moz-box-shadow: 1rem 1rem 3rem 0.5rem hsla(221, 100%, 96%, 0.5);
+    box-shadow: 1rem 1rem 3rem 0.5rem hsla(221, 100%, 96%, 0.5);
 }
 
 .summary {
